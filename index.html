@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen JavaScript</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 id="encabezado">Examen JavaScript</h1>
+    <ol>
+        <li>Programa el botón <b>'Cambiar color'</b> de manera que al hacer click se genere un color rgb aleatorio y cambie el color de fondo de la cabecera, 'h1', aplicando dicho color aleatorio.</li>
+        <button onclick="changeColor()">Cambiar color</button><br>
+        
+        <li>Programa el botón <b>'Lanzar ruleta'</b> de manera que:</li>
+        <ol type="a">
+            <li>Al hacer click obtengas un número al azar entre 10 y 99 (ambos incluidos), y se muestre en el 'p' <i>ruleta</i>. </li>
+            <li>En el 'p' <i>resumen</i> se mostrará el número de lanzamientos, la suma total de los números obtenidos y la media aritmética.</li>
+        </ol>
+
+        <div>
+            <button onclick="launch()">Lanzar Ruleta</button>
+            <p id="ruleta">00</p>
+        </div>
+        <p id="resumen">Lanzamientos: <span id="lanzamientos"></span>
+            <br> Suma total: <span id="suma"></span>
+            <br> Media: <span id="media"></span>
+        </p>
+        <p><i>El código JavaScript debe estar en el fichero index.js</i></p>
+        <p><i>RGB se deifine con la intensidad del rojo (R), verde (G) y azul (B) con valores del 0 al 255. <br> Ejemplo: rgb(180, 250, 80)</i></p>
+</body>
+</ol>
+
+</html>
